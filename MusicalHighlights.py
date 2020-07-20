@@ -85,7 +85,7 @@ def format_db(x, pos=None):
     return int(db)
 
 
-wav = wave.open("/Users/andre/Downloads/Telegram Desktop/imagine_dragons_im_so_sorry_456454131.wav",
+wav = wave.open("/Users/username/folder/imagine_dragons_im_so_sorry_456454131.wav",
                 mode="r")  # Path to Song
 (nchannels, sampwidth, framerate, nframes, comptype, compname) = wav.getparams()
 
